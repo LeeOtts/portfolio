@@ -1,0 +1,68 @@
+import { useState } from 'react';
+import {
+    Navbar,
+    NavbarBrand,
+    Collapse,
+    NavbarToggler,
+    Nav,
+    NavItem
+} from 'reactstrap';
+import { NavLink } from 'react-router-dom';
+import Logo from '../app/assets/img/white-logo.png';
+
+const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    return (
+        <Navbar dark color='primary' sticky='top' expand='md'>
+            <NavbarBrand className='ms-5' href='/'>
+                <img src={Logo} alt='logo' className='logo' />
+                {/* <h1 className='mt-1'>Coding with Whiskey</h1> */}
+            </NavbarBrand>
+
+            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
+
+            <Collapse isOpen={menuOpen} navbar>
+                <Nav className='ms-auto' navbar>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/'>
+                            <i className='fa fa-home fa-lg' /> Home
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/webdev'>
+                            <i class="fa-solid fa-laptop-code"></i> Web Development
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/photography'>
+                            <i className='fa fa-camera fa-lg' /> Photography
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/videography'>
+                            <i className='fa fa-camera-movie fa-lg' /> Videography
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/threedprinting'>
+                            <i className='fa fa-chart-scatter-3d fa-lg' /> 3d Printing
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/inthenews'>
+                            <i className='fa fa-chart-scatter-3d fa-lg' /> In The News
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/contact'>
+                            <i className='fa fa-address-card fa-lg' /> Contact
+                        </NavLink>
+                    </NavItem>
+                </Nav>
+            </Collapse>
+        </Navbar>
+    );
+};
+
+export default Header;

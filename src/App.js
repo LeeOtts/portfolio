@@ -1,58 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Routes, Route } from 'react-router-dom';
+//import { Container, Navbar, NavbarBrand } from "reactstrap";
+//import Logo from "./app/assets/img/coding_with_whiskey.jpg";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import WebDevelopmentPage from "./pages/WebDevelopmentPage";
+import PhotographyPage from "./pages/PhotographyPage";
+import VideographyPage from "./pages/VideographyPage";
+import ThreeDPrintingPage from "./pages/ThreeDPrintingPage";
+import InTheNewsPage from "./pages/InTheNewsPage";
+import ContactPage from "./pages/ContactPage";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="webdev" element={<WebDevelopmentPage />} />
+                <Route path="photography" element={<PhotographyPage />} />
+                <Route path="videography" element={<VideographyPage />} />
+                <Route path="threedprinting" element={<ThreeDPrintingPage />} />
+                <Route path="inthenews" element={<InTheNewsPage />} />
+                <Route path="contact" element={<ContactPage />} />
+            </Routes>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
