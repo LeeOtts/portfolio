@@ -30,7 +30,7 @@ const HomePage = () => {
 
                 </Col>
                 <Col>
-                    <h3>A little about me…</h3>
+                    <h3>A little more about me…</h3>
                     <p>
                         In 2012, I broke 8 vertebrae and had multiple surgeries to repair the damage. Luckily I can walk.
 
