@@ -31,32 +31,32 @@ const Header = () => {
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/webdev'>
-                            <i class="fa-solid fa-laptop-code"></i> Web Development
+                            <i className="fa-solid fa-laptop-code"></i> Web Development
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/photography'>
-                            <i className='fa fa-camera fa-lg' /> Photography
+                            <i className='fa-solid fa-camera fa-lg' /> Photography
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/videography'>
-                            <i className='fa fa-camera-movie fa-lg' /> Videography
+                            <i class='fa-solid fa-camera-movie fa-lg' /> Videography
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/threedprinting'>
-                            <i className='fa fa-chart-scatter-3d fa-lg' /> 3d Printing
+                            <i className='fa-solid fa-chart-scatter-3d fa-lg' /> 3d Printing
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/inthenews'>
-                            <i className='fa fa-chart-scatter-3d fa-lg' /> In The News
+                            <i className='fa-solid fa-newspaper fa-lg' /> In The News
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/contact'>
-                            <i className='fa fa-address-card fa-lg' /> Contact
+                            <i className='fa-solid fa-address-card fa-lg' /> Contact
                         </NavLink>
                     </NavItem>
                 </Nav>
