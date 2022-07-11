@@ -46,7 +46,7 @@ const Header = () => {
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/threedprinting'>
-                            <i className='fa-solid fa-chart-scatter-3d fa-lg' /> 3d Printing
+                            <i className='fa-brands fa-unity fa-lg' /> 3d Printing
                         </NavLink>
                     </NavItem>
                     <NavItem>
