@@ -37,19 +37,19 @@ const Footer = () => {
                             href='http://github.com/leeotts' target='blank'
                         >
                             <i className='fa fa-github' />
-                        </a>{' '}
+                        </a>{'  '}
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/leeotts' target='blank'
                         >
                             <i className='fa fa-instagram' />
-                        </a>{' '}
+                        </a>{'  '}
                         <a
                             className='btn btn-social-icon btn-facebook'
                             href='http://www.facebook.com/leeotts' target='blank'
                         >
                             <i className='fa fa-facebook' />
-                        </a>{' '}
+                        </a>{'  '}
                         <a
                             className='btn btn-social-icon btn-twitter'
                             href='http://twitter.com/leeotts' target='blank'

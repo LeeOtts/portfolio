@@ -20,13 +20,13 @@ const HomePage = () => {
                     </p>
                 </Col>
                 <Col>
-                    <img width='500px' src={ZombieLee} alt='dressed as a zombie for video shoot' className='image' />
+                    <img width='500rem' src={ZombieLee} alt='dressed as a zombie for video shoot' className='image' />
                 </Col>
             </Row>
 
             <Row className='row-content'>
-                <Col sm='6'>
-                    <img width='500px' src={Xray} alt='xray after my 2017 surgery' className='image' />
+                <Col sm='6'  style={{ textAlign: "center", marginRight: "3rem" }}>
+                    <img width='500rem' src={Xray} alt='xray after my 2017 surgery' className='image' />
 
                 </Col>
                 <Col>
@@ -44,19 +44,20 @@ const HomePage = () => {
                     My work has been featured in
                 </h1>
 
-                <Col xs='12' md='12' xl='4'>
-                    <a href='https://www.myclickmag.com/'>
-                        <img width='350px' src={Click_Logo} alt='click magazine logo' />
-                    </a>
-                </Col>
-                <Col xs='12' md='12' xl='4'>
+                
+                <Col xs='12' md='12' xl='4' style={{ textAlign: "center", paddingBottom: "2rem" }}>
                     <a href='https://www.commercialappeal.com/'>
-                        <img width='350px' src={Commercial_Appeal_Logo} alt='commercial appeal logo' />
+                        <img width='350rem' src={Commercial_Appeal_Logo} alt='commercial appeal logo' />
                     </a>
                 </Col>
-                <Col xs='12' md='12' xl='4'>
+                <Col xs='12' md='12' xl='4'style={{ textAlign: "center", paddingBottom: "2rem", paddingTop: "2rem" }}>
                     <a href='https://www.memphisflyer.com/'>
-                        <img width='350px' src={Memphis_Flyer_Logo} alt='memphis flyer logo' />
+                        <img width='350rem' src={Memphis_Flyer_Logo} alt='memphis flyer logo' />
+                    </a>
+                </Col>
+                <Col xs='12' md='12' xl='4' style={{ textAlign: "center", paddingBottom: "2rem" }}>
+                    <a href='https://www.myclickmag.com/'>
+                        <img width='350rem' src={Click_Logo} alt='click magazine logo' />
                     </a>
                 </Col>
             </Row>

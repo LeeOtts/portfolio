@@ -14,7 +14,7 @@ const WebDevelopmentPage = () => {
                 <Col sm="6">
                     <h1>Web Development</h1>
                     <p>
-                        I got into Web Developing while working security at a local private highschool around 2017. From there an idea was born and I started to work on making it a reality. After some trial and error I pieced together a working prototype using a variety of WordPress plugins. It worked but was slow and bloated. 
+                        I got into Web Developing while working security at a local private highschool around 2017. From there an idea was born and I started to work on making it a reality. After some trial and error I pieced together a working prototype using a variety of WordPress plugins. It worked but was slow and bloated.
                     </p>
                     <p>
                         Unfortunately, I had a ruptured disc and that required another surgery with a long recovery including physical therapy and rest. It ended up being the one that helped relieve a lot of the pain I had every day but it did stop the development of that site
@@ -27,36 +27,35 @@ const WebDevelopmentPage = () => {
                     </p>
                 </Col>
                 <Col>
-                    <img width='300px' style={{ marginTop: "5rem", marginLeft: "2rem" }} src={CodingWithWhiskey} alt='Lee and his rescue pup, Whiskey' className='image' />
-                </Col>
-            </Row>
-            <hr/>
-            <Row className="row-content">
-            <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>My Portfolio</h2>
-                <Col>
-                    <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>Rush Hemp Farms</h2>
-                    <a href="https://rushhempfarms.com">
-                        <img width='500px' src={RushHempFarms} alt='Rush Hemp Farms WordPress site' className='image' />
-                    </a>
-                </Col>
-                <Col>
-                    <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>MidSouth HempFest</h2>
-                    <a href="https://midsouthhempfest.com">
-                        <img width='500px' src={MSHF} alt='MidSouth HempFest WordPress site' className='image' />
-                    </a>
+                    <img width='300rem' style={{ marginTop: "5rem", marginLeft: "2rem" }} src={CodingWithWhiskey} alt='Lee and his rescue pup, Whiskey' className='image' />
                 </Col>
             </Row>
             <hr />
             <Row className="row-content">
-                <Col>
+            <h1 style={{ textAlign: "center", paddingBottom: '2rem' }}>My Portfolio</h1>
+                <Col style={{ textAlign: "center" }} >
+                    <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>Rush Hemp Farms</h2>
+                    <a href="https://rushhempfarms.com">
+                        <img width='500rem' src={RushHempFarms} alt='Rush Hemp Farms WordPress site' className='image' style={{ textAlign: "center", paddingBottom: "2rem" }} />
+                    </a>
+                </Col>
+                <Col style={{ textAlign: "center" }}>
+                    <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>MidSouth HempFest</h2>
+                    <a href="https://midsouthhempfest.com">
+                        <img width='500rem' src={MSHF} alt='MidSouth HempFest WordPress site' className='image' style={{ textAlign: "center", paddingBottom: "2rem" }} />
+                    </a>
+                </Col>
+            </Row>
+            <Row className="row-content">
+                <Col style={{ textAlign: "center" }}>
                     <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>NORML Memphis</h2>
-                    <img width='500px' src={NORMLMEMPHIS} alt='NORML Memphis Wordpress site' className='image' />
+                    <img width='500rem' src={NORMLMEMPHIS} alt='NORML Memphis Wordpress site' className='image' style={{ textAlign: "center", paddingBottom: "2rem"  }} />
 
                 </Col>
-                <Col>
+                <Col style={{ textAlign: "center"}}>
                     <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>Broken Shooter</h2>
                     <a href="https://brokenshooter.com">
-                        <img width='500px' src={BrokenShooter} alt='Broken Shooter Wordpress site' className='image' />
+                        <img width='500rem' src={BrokenShooter} alt='Broken Shooter Wordpress site' className='image' style={{ textAlign: "center", paddingBottom: "2rem"   }} />
                     </a>
                 </Col>
             </Row>
