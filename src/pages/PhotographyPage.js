@@ -11,7 +11,7 @@ const PhotographyPage = () => {
             <Row className="row-content">
                 <Col sm="6">
                     <h1>Photography</h1>
-                    <p>Post some pics here</p>
+                    <p>Working on a photo gallery</p>
                 </Col>
             </Row>
         </Container>
