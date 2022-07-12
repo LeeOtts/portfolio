@@ -7,7 +7,7 @@ const ContactPage = () => {
         <Container>
             <SubHeader current='Contact Me' />
 
-            <Row className='row-content align-items-center'>
+            {/* <Row className='row-content align-items-center'>
                 <Col sm='4'>
                     <h5>Contact Me</h5>
                 </Col>
@@ -28,11 +28,10 @@ const ContactPage = () => {
                         <i className='fa fa-envelope-o' /> me@leeotts.com
                     </a>
                 </Col>
-            </Row>
+            </Row> */}
 
             <Row className='row-content'>
                 <Col xs='12'>
-                    <hr />
                 </Col>
                 <Col md='10'>
                     <ContactForm />
