@@ -1,7 +1,11 @@
 import { Col, Row, Container } from "reactstrap";
 import SubHeader from "../components/SubHeader";
-//import VideoCamera from '../app/assets/img/videocamera.png';
-import VideoEditing from '../app/assets/img/videoediting.png';
+import VideoCamera from '../app/assets/img/videocamera.png';
+import FilmEditIcon from '../app/assets/img/film-editing_white.png';
+import LiveIcon from '../app/assets/img/live_white.png';
+import MicrophoneIcon from '../app/assets/img/microphone_white.png';
+import CameraIcon from '../app/assets/img/camera_white.png';
+
 
 const VideographyPage = () => {
     return (
@@ -9,14 +13,42 @@ const VideographyPage = () => {
             <SubHeader current="Videography" />
             <Row className="row-content">
                 <Col>
-                    <h1>Video Editing</h1>
-                    <p>For editing I use Adobe Premier, Adobe After Effects, Adobe Audition and other specialized software to deliver high quality results. Check out some of my work below</p>
+                    <h1>Videography</h1>
+                    <p>I got into videography around the same time I got into photography. It was very common for me to work an event solo where I would set up the video cameras, check audio levels, and then move to a DSLR and start snapping pictures of the event or show. </p>
                 </Col>
                 <Col>
-                    <img src={VideoEditing} alt='screenshot during the editing process ' className='image' width='500rem' />
+                    <img src={VideoCamera} alt='screenshot during the editing process ' className='image' width='500rem' />
+                </Col>
+            </Row>
+
+            <hr />
+
+            <Row className="icon-background row-content">
+                <Col md='10' lg='3'>
+                    <h2>Camera</h2>
+                    <img src={CameraIcon} alt='video camera icon ' width='250rem' style={{ alignSelf: 'center' }} />
+                    <p>Canon Video Camera for extended recordings, Canon SLR, GoPro Hero, and a DJI drone always ready to catch the perfect shot</p>
+                </Col>
+                <Col md='10' lg='3'>
+                    <h2>Audio</h2>
+                    <img src={MicrophoneIcon} alt='microphone icon ' width='250rem' style={{ alignSelf: 'center' }} />
+                    <p>RodeCaster Pro, Rode Shotgun Mic, Rode Lapel Mic and Reciever, Zoom Audio Recorder with Adobe Audition to blend and tweak audio to perfection.</p>
+                </Col>
+                <Col md='10' lg='3'>
+                <h2>Streaming</h2>
+                    <img src={LiveIcon} alt='streaming icon ' width='250rem' style={{ alignSelf: 'center' }}/>
+                    <p>When streaming you got one shot to get it right. I use OBS Software, Laptop, RGB Lights, Rode Lapel and Shotgun mics, and a StreamDeck to help with streaming production.</p>
+                </Col>
+                <Col md='10' lg='3'>
+                <h2>Editing</h2>
+                    <img src={FilmEditIcon} alt='editing icon ' width='250rem' style={{ alignSelf: 'center' }} />
+                    <p>Adobe Creative Cloud products such as Adobe Premiere Pro and After Effects for video. Adobe Audition for sound</p>
                 </Col>
             </Row>
             <hr />
+
+
+            {/* Video Section */}
             <Row>
                 <Col>
                     <h2 style={{ textAlign: "center", padding: "2rem" }}>Videos</h2>

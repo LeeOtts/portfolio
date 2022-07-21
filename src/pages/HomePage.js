@@ -11,7 +11,7 @@ const HomePage = () => {
         <Container>
             <SubHeader current='Home' />
             <Row className='row-content'>
-            <Col>
+                <Col>
                     <img width='300rem' src={HeadShot} alt='Headshot of Lee in front of computer' className='headshot' />
                 </Col>
                 <Col sm='12' lg='5'>
@@ -25,11 +25,11 @@ const HomePage = () => {
                         I have several years of practical WordPress, e-commerce, and SEO experience freelancing for numerous small businesses. This website is using ReactJs. Wanting to build on my WordPress knowledge I am currently attending NuCamp’s <span style={{ fontWeight: 'bold' }}>“Full Stack Web + Mobile Development“</span>. I have completed their <span style={{ fontWeight: 'bold' }}>“Backend, SQL, and DevOps with Python”</span> and <span style={{ fontWeight: 'bold' }}>“Web Development Fundamentals”</span> courses. Feel free to check out some of my WordPress work <a href='https:brokenshooter.com'>here</a>.
                     </p>
                 </Col>
-                
+
             </Row>
-<hr/>
+            <hr />
             <Row className='row-content'>
-                
+
                 <Col sm='12' lg='5'>
 
                     <p>

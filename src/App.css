@@ -113,6 +113,16 @@ h2 {
 .youtube-embed {
     align-items: "center";
     padding-bottom: "2rem";
-    
 }
 
+.icon-background {
+    background-color: #00ccff;
+    color: white;
+    align-content: center;
+}
+
+.icon-background h2 {
+    color: white;
+    text-align: center;
+    padding-right: 4rem;
+}
