@@ -24,37 +24,37 @@ const Header = () => {
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto' navbar>
                     <NavItem>
-                        <NavLink className='nav-link' to='/'>
+                        <NavLink className='nav-link' to='/' onClick={() => setTimeout(() => { setMenuOpen(false) }, 150)}>
                             <i className='fa fa-home fa-lg' /> Home
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/webdev'>
+                        <NavLink className='nav-link' to='/webdev' onClick={() => setTimeout(() => { setMenuOpen(false) }, 150)}>
                             <i className="fa-solid fa-laptop-code"></i> Web Dev
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/photography'>
+                        <NavLink className='nav-link' to='/photography' onClick={() => setTimeout(() => { setMenuOpen(false) }, 150)}>
                             <i className='fa-solid fa-camera fa-lg' /> Photography
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/videography'>
+                        <NavLink className='nav-link' to='/videography' onClick={() => setTimeout(() => { setMenuOpen(false) }, 150)}>
                             <i class='fa-solid fa-camera-movie fa-lg' /> Videography
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/threedprinting'>
+                        <NavLink className='nav-link' to='/threedprinting' onClick={() => setTimeout(() => { setMenuOpen(false) }, 150)}>
                             <i className='fa-brands fa-unity fa-lg' /> 3d Printing
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/inthenews'>
+                        <NavLink className='nav-link' to='/inthenews' onClick={() => setTimeout(() => { setMenuOpen(false) }, 150)}>
                             <i className='fa-solid fa-newspaper fa-lg' /> In The News
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/contact'>
+                        <NavLink className='nav-link' to='/contact' onClick={() => setTimeout(() => { setMenuOpen(false) }, 150)}>
                             <i className='fa-solid fa-address-card fa-lg' /> Contact
                         </NavLink>
                     </NavItem>

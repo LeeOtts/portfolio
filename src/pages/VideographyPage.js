@@ -23,7 +23,7 @@ const VideographyPage = () => {
 
             <hr />
 
-            <Row className="icon-background row-content">
+            <Row className="icon-background row-content container-fluid ">
                 <Col md='10' lg='3'>
                     <h2>Camera</h2>
                     <img src={CameraIcon} alt='video camera icon ' width='250rem' style={{ alignSelf: 'center' }} />
