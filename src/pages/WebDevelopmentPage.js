@@ -11,7 +11,7 @@ const WebDevelopmentPage = () => {
         <Container>
             <SubHeader current="Web Development" />
             <Row className="row-content">
-                <Col sm="6">
+                <Col sm="12" lg='8'>
                     <h1>Web Development</h1>
                     <p>
                         I got into Web Developing while working security at a local private highschool around 2017. From there an idea was born and I started to work on making it a reality. After some trial and error I pieced together a working prototype using a variety of WordPress plugins. It worked but was slow and bloated.
@@ -32,7 +32,7 @@ const WebDevelopmentPage = () => {
             </Row>
             <hr />
             <Row className="row-content">
-            <h1 style={{ textAlign: "center", paddingBottom: '2rem' }}>My Portfolio</h1>
+                <h1 style={{ textAlign: "center", paddingBottom: '2rem' }}>My Portfolio</h1>
                 <Col style={{ textAlign: "center" }} >
                     <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>Rush Hemp Farms</h2>
                     <a href="https://rushhempfarms.com">
@@ -49,13 +49,13 @@ const WebDevelopmentPage = () => {
             <Row className="row-content">
                 <Col style={{ textAlign: "center" }}>
                     <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>NORML Memphis</h2>
-                    <img width='500rem' src={NORMLMEMPHIS} alt='NORML Memphis Wordpress site' className='image' style={{ textAlign: "center", paddingBottom: "2rem"  }} />
+                    <img width='500rem' src={NORMLMEMPHIS} alt='NORML Memphis Wordpress site' className='image' style={{ textAlign: "center", paddingBottom: "2rem" }} />
 
                 </Col>
-                <Col style={{ textAlign: "center"}}>
+                <Col style={{ textAlign: "center" }}>
                     <h2 style={{ textAlign: "center", paddingBottom: "2rem" }}>Broken Shooter</h2>
                     <a href="https://brokenshooter.com">
-                        <img width='500rem' src={BrokenShooter} alt='Broken Shooter Wordpress site' className='image' style={{ textAlign: "center", paddingBottom: "2rem"   }} />
+                        <img width='500rem' src={BrokenShooter} alt='Broken Shooter Wordpress site' className='image' style={{ textAlign: "center", paddingBottom: "2rem" }} />
                     </a>
                 </Col>
             </Row>

@@ -1,117 +1,118 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
 }
 
 .breadcrumb a {
-  color: rgb(1, 60, 10);
+    color: rgb(1, 60, 10);
 }
 
 .breadcrumb a:hover {
-  color: grey
+    color: grey;
 }
 
 .image {
-  border-radius: 25px ;
+    border-radius: 25px;
+}
+
+.headshot {
+    border-radius: 50rem;
+    align-content: flex-end;
+    margin-left: 8rem;
 }
 
 h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
 }
 
 .card-title {
-  font-weight: 500;
-  font-size: 1.25rem;
+    font-weight: 500;
+    font-size: 1.25rem;
 }
 
 h2 {
-  color: rgb(1, 60, 10);
+    color: rgb(1, 60, 10);
 }
 
 .card-img-overlay .card-title {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .row-content {
-  padding: 50px 0;
-  min-height: 200px;
+    padding: 50px 0;
+    min-height: 200px;
 }
 
 .site-footer {
-  background-color: #568203;
-  background-image: linear-gradient(0deg, #000000 0%, rgb(1, 60, 10) 100%);
-  padding: 20px 0;
-  margin-top: 2rem;
-  color: white;
+    background-color: #568203;
+    background-image: linear-gradient(0deg, #000000 90%, #00ccff 100%);
+    padding: 20px 0;
+    margin-top: 2rem;
+    color: white;
 }
 .site-footer a {
-  color:rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
 
 .site-footer a:hover {
-  color:rgb(39, 39, 39)
+    color: rgb(39, 39, 39);
 }
 
 .navbar-brand {
-  max-width: 4rem;
-  margin-right: 2rem;
+    max-width: 4rem;
+    margin-right: 2rem;
 }
 
 .navbar-brand img {
-  width: 200%;
-  height: 200%;
-  margin-right: 4rem;
-  max-width: 8rem;
-  display: block;
-  
+    width: 200%;
+    height: 200%;
+    margin-right: 4rem;
+    max-width: 8rem;
+    display: block;
 }
 
 .navbar-dark {
-  background-color: #000000;
-  background-image: linear-gradient(180deg, #000000 0%, rgb(1, 60, 10) 100%);
-  margin-bottom: 2rem;
-  min-height: 8rem;
-  border-bottom-style: solid;
-  border-color: whitesmoke;
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 90%, #00ccff 100%);
+    margin-bottom: 2rem;
+    min-height: 8rem;
+    border-bottom-style: solid;
+    border-color: whitesmoke;
 }
 
 .page-enter {
-  opacity: 0;
-  transform: translateX(-100%);
+    opacity: 0;
+    transform: translateX(-100%);
 }
 
 .page-enter-active {
-  opacity: 1;
-  transform: translateX(0%);
-  transition: 300ms ease-out;
+    opacity: 1;
+    transform: translateX(0%);
+    transition: 300ms ease-out;
 }
 
 .page-exit {
-  opacity: 1;
+    opacity: 1;
 }
 
 .page-exit-active {
-  opacity: 0;
-  transition: 300ms ease-in;
+    opacity: 0;
+    transition: 300ms ease-in;
 }
-
 
 .center {
-  display: flex;
-  justify-content: 'center';
-  align-items: 'center';
+    display: flex;
+    justify-content: "center";
+    align-items: "center";
 }
 
-.youtube-center {
-  width: 560px; /* you have to have a size or this method doesn't work */
-  height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
-
-  position: absolute; /* positions out of the flow, but according to the nearest parent */
-  top: 0; right: 0; /* confuse it i guess */
-  bottom: 0; left: 0;
-  margin: auto; /* make em equal */
+.youtube-embed {
+    align-items: "center";
+    padding-bottom: "2rem";
+    
 }
+

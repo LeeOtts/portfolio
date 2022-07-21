@@ -34,6 +34,8 @@ const ContactPage = () => {
                 <Col xs='12'>
                 </Col>
                 <Col md='10'>
+                    <h1>Contact Form</h1>
+                    <p>Still learning react and node so it doesnt work right now</p>
                     <ContactForm />
                 </Col>
             </Row>
