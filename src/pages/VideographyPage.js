@@ -1,5 +1,4 @@
 import { Col, Row, Container } from "reactstrap";
-import SubHeader from "../components/SubHeader";
 import VideoCamera from '../app/assets/img/videocamera.png';
 import FilmEditIcon from '../app/assets/img/film-editing_white.png';
 import LiveIcon from '../app/assets/img/live_white.png';
