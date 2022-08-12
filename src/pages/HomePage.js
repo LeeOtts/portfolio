@@ -11,13 +11,13 @@ const HomePage = () => {
         <Container>
             <SubHeader current='Home' />
             <Row className='row-content'>
-                <Col>
+                <Col sm='12' lg='5'>
                     <img width='300rem' src={HeadShot} alt='Headshot of Lee in front of computer' className='headshot' />
                 </Col>
-                <Col sm='12' lg='5'>
-                    <h1>
+                <Col sm='12' lg='7'>
+                    <h2>
                         A little about me...
-                    </h1>
+                    </h2>
                     <p>
                         Hey, y’all! My name is Lee and I am a web developer born and raised in Memphis, TN currently residing in Bartlett, TN with my wife and our kids, 2 cats, and 1 rescue pup named Whiskey.
                     </p>
@@ -30,7 +30,7 @@ const HomePage = () => {
             <hr />
             <Row className='row-content'>
 
-                <Col sm='12' lg='5'>
+                <Col sm='12' lg='7'>
 
                     <p>
                         In 2012, I broke 8 vertebrae and had multiple surgeries to repair the damage.
@@ -42,7 +42,7 @@ const HomePage = () => {
                         Next came trying to figure out what to call my business. It’s common for photographers to refer to themselves as shooters, even in the dictionary.
                     </p>
                 </Col>
-                <Col sm='6' lg='6' style={{ textAlign: "center" }}>
+                <Col sm='12' lg='5' >
                     <img width='500rem' src={Xray} alt='xray after my 2017 surgery' className='image' />
 
                 </Col>
@@ -53,22 +53,24 @@ const HomePage = () => {
                     My work has been featured in
                 </h1>
 
+                <Col md='12' lg='4' className='center'>
+                    <a href='https://www.myclickmag.com/' target='_blank' rel="noreferrer">
+                        <img width='350rem' src={Click_Logo} alt='click magazine logo' />
+                    </a>
+                </Col>
 
-                <Col xs='12' md='12' xl='4' style={{ textAlign: "center", paddingBottom: "2rem" }}>
-                    <a href='https://www.commercialappeal.com/'>
-                        <img width='350rem' src={Commercial_Appeal_Logo} alt='commercial appeal logo' target='_blank' />
+                <Col md='12' lg='4' className='center' style={{ padding: "3rem" }}>
+                    <a href='https://www.memphisflyer.com/' target='_blank' rel="noreferrer">
+                        <img width='350rem' src={Memphis_Flyer_Logo} alt='memphis flyer logo' />
                     </a>
                 </Col>
-                <Col xs='12' md='12' xl='4' style={{ textAlign: "center", paddingBottom: "2rem", paddingTop: "2rem" }}>
-                    <a href='https://www.memphisflyer.com/' >
-                        <img width='350rem' src={Memphis_Flyer_Logo} alt='memphis flyer logo' target='_blank' />
+
+                <Col md='12' lg='4' className='center'>
+                    <a href='https://www.commercialappeal.com/' target='_blank' rel="noreferrer">
+                        <img width='350rem' src={Commercial_Appeal_Logo} alt='commercial appeal logo' />
                     </a>
                 </Col>
-                <Col xs='12' md='12' xl='4' style={{ textAlign: "center", paddingBottom: "2rem" }}>
-                    <a href='https://www.myclickmag.com/'>
-                        <img width='350rem' src={Click_Logo} alt='click magazine logo' target='_blank' />
-                    </a>
-                </Col>
+
             </Row>
         </Container>
     );
