@@ -12,8 +12,8 @@ export default function MasonryImageList() {
                 {itemData.map((item) => (
                     <ImageListItem key={item.img}>
                         <img
-                            src={`${item.img}?w=248&fit=crop&auto=format`}
-                            srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                            src={`${item.img}`}
+                            srcSet={`${item.img}`}
                             alt={item.title}
                             loading="lazy"
                         />
@@ -25,6 +25,10 @@ export default function MasonryImageList() {
 }
 
 const itemData = [
+    {
+        img: 'https://i.ibb.co/GWcpFVb/engagement.jpg',
+        title: 'Engagement Photo'
+    },
     {
         img: 'https://i.ibb.co/Yt5hgZS/orion-stacked.png',
         title: 'Orion Nebula',

@@ -1,5 +1,5 @@
 import { Col, Row, Container } from "reactstrap";
-import SubHeader from "../components/SubHeader";
+
 import NORMLMEMPHIS from '../app/assets/img/normlmemphis.png';
 import RushHempFarms from '../app/assets/img/rushhempfarms.png';
 import MSHF from '../app/assets/img/midsouthhempfest.png';
@@ -9,15 +9,14 @@ import CodingWithWhiskey from '../app/assets/img/coding_with_whiskey.jpg';
 const WebDevelopmentPage = () => {
     return (
         <Container>
-            <SubHeader current="Web Development" />
-            <Row>
+
+            <Row className="row-content">
                 <Col>
-                <h2>Web Development</h2>
+                    <h2>Web Development</h2>
                 </Col>
             </Row>
-            <Row className="row-content">
+            <Row>
                 <Col md="12" lg='7'>
-                    
                     <p>
                         I got into Web Developing while working security at a local private highschool around 2017. From there an idea was born and I started to work on making it a reality. After some trial and error I pieced together a working prototype using a variety of WordPress plugins. It worked but was slow and bloated.
                     </p>
@@ -32,7 +31,7 @@ const WebDevelopmentPage = () => {
                     </p>
                 </Col>
                 <Col md='12' lg='5'>
-                    <img width='300rem' style={{  marginLeft: "2rem" }} src={CodingWithWhiskey} alt='Lee and his rescue pup, Whiskey' className='image' />
+                    <img width='300rem' style={{ marginLeft: "2rem" }} src={CodingWithWhiskey} alt='Lee and his rescue pup, Whiskey' className='image' />
                 </Col>
             </Row>
             <hr />

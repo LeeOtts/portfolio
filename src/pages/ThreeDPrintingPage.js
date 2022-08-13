@@ -1,5 +1,4 @@
 import { Col, Row, Container } from "reactstrap";
-import SubHeader from "../components/SubHeader";
 import ThingiverseLogo from '../app/assets/img/thingiverse_logo.png';
 import PrintablesLogo from '../app/assets/img/printables_logo.png';
 import LackEnclosure from '../app/assets/img/lack_enclosure.jpg';
@@ -13,7 +12,6 @@ import MandoAndChild from '../app/assets/img/jesus_mando.jpg';
 const ThreeDPrintingPage = () => {
     return (
         <Container>
-            <SubHeader current="3d Printing" />
             <Row className="row-content">
                 <Col>
                     <h2>3D Printing</h2>
@@ -21,7 +19,7 @@ const ThreeDPrintingPage = () => {
 
                 </Col>
             </Row>
-            <Row className="row-content">
+            <Row>
                 <Col xl='6'>
                     <h2>Lack Enclosure</h2>
                     <p>I wanted a way to enclose my printer. I bought 2 Ikea Lack tables, printed some parts, and had smoke acrylic panels cut to shape</p>

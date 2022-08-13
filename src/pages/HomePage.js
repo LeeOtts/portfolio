@@ -1,5 +1,4 @@
 import { Col, Row, Container } from 'reactstrap';
-import SubHeader from '../components/SubHeader';
 import Memphis_Flyer_Logo from '../app/assets/img/memphis_flyer_logo.png';
 import Click_Logo from '../app/assets/img/click_logo.png';
 import Commercial_Appeal_Logo from '../app/assets/img/commercial_appeal_logo.png';
@@ -9,7 +8,7 @@ import HeadShot from '../app/assets/img/lee_headshot_blacksuit.jpg'
 const HomePage = () => {
     return (
         <Container>
-            <SubHeader current='Home' />
+
             <Row className='row-content'>
                 <Col sm='12' lg='5'>
                     <img width='300rem' src={HeadShot} alt='Headshot of Lee in front of computer' className='headshot' />
