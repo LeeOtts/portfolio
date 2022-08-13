@@ -10,7 +10,6 @@ const PhotographyPage = () => {
             <Row className="row-content">
                 <Col sm="6">
                     <h2>Photography</h2>
-                    <p>Working on a photo gallery</p>
                 </Col>
             </Row>
             <Row>
