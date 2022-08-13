@@ -16,7 +16,7 @@ const ThreeDPrintingPage = () => {
             <SubHeader current="3d Printing" />
             <Row className="row-content">
                 <Col>
-                    <h1>3D Printing</h1>
+                    <h2>3D Printing</h2>
                     <p>Late 2021 I bought a Creality Ender 3v2 3d printer. I started with just downloading a STL file and printing that but slowly through creating my own remixes of several parts I was able to create my own file from scratch. The company I work for needed some more bowl holders and instead of buying them I designed a custom one with shop name and printed that. Luckily I had a couple weeks to learn Fusion 360 uninterupted as I was quarantined with covid those 2 weeks. </p>
 
                 </Col>
@@ -25,7 +25,7 @@ const ThreeDPrintingPage = () => {
                 <Col xl='6'>
                     <h2>Lack Enclosure</h2>
                     <p>I wanted a way to enclose my printer. I bought 2 Ikea Lack tables, printed some parts, and had smoke acrylic panels cut to shape</p>
-                    <img width='500px' src={LackEnclosure} alt='Lack Enclosure' className='image'/>
+                    <img width='500px' src={LackEnclosure} alt='Lack Enclosure' className='image' />
                 </Col>
                 <Col>
                     <h2>Baby Yoda</h2>
@@ -43,7 +43,7 @@ const ThreeDPrintingPage = () => {
                 <Col>
                     <h2>Hemp Cart Holder</h2>
                     <p> Printed with hemp bio mass plastic</p>
-                    <img width='500px' src={HempCartHolder} alt='Cart and battery holder made from hemp' className='image'/>
+                    <img width='500px' src={HempCartHolder} alt='Cart and battery holder made from hemp' className='image' />
                 </Col>
             </Row>
             <hr />
@@ -58,7 +58,7 @@ const ThreeDPrintingPage = () => {
                 <Col xl='4'>
                     <h2>Gift for mom</h2>
                     <p>Photo of mom, son, and me at my wedding</p>
-                    <img width='400px' src={GiftForMomLit} alt='Lithophane for mom' className='image'/>
+                    <img width='400px' src={GiftForMomLit} alt='Lithophane for mom' className='image' />
                 </Col>
                 <Col xl='4'>
                     <h2>Mando and Child</h2>
