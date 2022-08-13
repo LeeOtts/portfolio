@@ -1,6 +1,10 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "author": "Lee Otts",
+  "description": "React App Portfolio for Lee Otts",
+  "repository": "https://github.com/LeeOtts/portfolio",
+  "homepage": "https://leeotts.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
