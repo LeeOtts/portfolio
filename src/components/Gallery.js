@@ -34,8 +34,32 @@ const itemData = [
         title: 'Orion Nebula',
     },
     {
+        img: 'https://i.ibb.co/g3w0SK0/cbaidproduct.jpg',
+        title: 'Product Photography: CBaid',
+    },
+    {
+        img: 'https://i.ibb.co/xFNqzdn/rushhempfarmsproduct.jpg',
+        title: 'Product Photography: Rush Hemp Farms',
+    },
+    {
+        img: 'https://i.ibb.co/v39ychM/salveproduct.jpg',
+        title: 'Product Photography: Veteran Grown CBD',
+    },
+    {
+        img: 'https://i.ibb.co/KhLjZhS/comfy-whiskey.png',
+        title: 'Our rescue pup, Whiskey',
+    },
+    {
+        img: 'https://i.ibb.co/XY8d3LR/butteryfly.png',
+        title: 'Butterfly in our wildflower garden',
+    },
+    {
         img: 'https://i.ibb.co/PmZrd3s/Roast-of-Kyle-20.jpg',
-        title: 'Books',
+        title: 'Roast of Kyle',
+    },
+    {
+        img: 'https://i.ibb.co/stkjZzh/rings.png',
+        title: 'Our Wedding Rings',
     },
     {
         img: 'https://i.ibb.co/zJzXfJj/ross.png',
@@ -47,11 +71,11 @@ const itemData = [
     },
     {
         img: 'https://i.ibb.co/HCgwGTL/train.png',
-        title: 'Train Ride',
+        title: 'Polar Express Train Ride',
     },
     {
         img: 'https://i.ibb.co/b3jdxvC/wes.jpg',
-        title: 'Chairs',
+        title: 'Wes Corwin',
     },
     {
         img: 'https://i.ibb.co/mJVQt9c/ashanti.jpg',

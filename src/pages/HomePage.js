@@ -21,7 +21,7 @@ const HomePage = () => {
                         Hey, y’all! My name is Lee and I am a web developer born and raised in Memphis, TN currently residing in Bartlett, TN with my wife and our kids, 2 cats, and 1 rescue pup named Whiskey.
                     </p>
                     <p>
-                        I have several years of practical WordPress, e-commerce, and SEO experience freelancing for numerous small businesses. This website is using ReactJs. Wanting to build on my WordPress knowledge I am currently attending NuCamp’s <span style={{ fontWeight: 'bold' }}>“Full Stack Web + Mobile Development“</span>. I have completed their <span style={{ fontWeight: 'bold' }}>“Backend, SQL, and DevOps with Python”</span> and <span style={{ fontWeight: 'bold' }}>“Web Development Fundamentals”</span> courses. Feel free to check out some of my WordPress work <a href='https//:brokenshooter.com'>here</a>.
+                        I have several years of practical WordPress, e-commerce, and SEO experience freelancing for numerous small businesses. This website is using ReactJs. Wanting to build on my WordPress knowledge I am currently attending NuCamp’s <span style={{ fontWeight: 'bold' }}>“Full Stack Web + Mobile Development“</span>. I have completed their <span style={{ fontWeight: 'bold' }}>“Backend, SQL, and DevOps with Python”</span> and <span style={{ fontWeight: 'bold' }}>“Web Development Fundamentals”</span> courses. Feel free to check out some of my WordPress work <a href='https:brokenshooter.com'>here</a>.
                     </p>
                 </Col>
 
