@@ -1,4 +1,5 @@
 import { Col, Row, Container } from "reactstrap";
+import SubHeader from "../components/SubHeader";
 import VideoCamera from '../app/assets/img/videocamera.png';
 import FilmEditIcon from '../app/assets/img/film-editing_white.png';
 import LiveIcon from '../app/assets/img/live_white.png';
@@ -9,7 +10,7 @@ import CameraIcon from '../app/assets/img/camera_white.png';
 const VideographyPage = () => {
     return (
         <Container>
-
+            <SubHeader current="Videography" />
             <Row>
                 <Col>
                     <h2>Videography</h2>
