@@ -1,10 +1,10 @@
 import { Col, Row, Container } from "reactstrap";
-import SubHeader from "../components/SubHeader";
+
 
 const InTheNewsPage = () => {
     return (
         <Container>
-            <SubHeader current='In The News' />
+
             <Row className="row-content">
                 <h2>In The News</h2>
                 <p>In 2012 I broke 8 vertebra and required multiple surgeries. I followed doctors orders for a couple of years and all that did was leave me taking 14 different prescriptions while still being in pain. That was when I tried an alternative... cannabis. I literally cried the first time I used it medicinally because after all those years the "voice of the pain" quieted in my head. </p>
